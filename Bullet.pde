@@ -1,13 +1,13 @@
 class Bullet {
   int xpos;
   int ypos;
-  int radius;
+  int bulletradius;
   color ballColor = color(200, 100, 50);
 
   Bullet(int xpos, int ypos) {
     this.xpos = xpos;
     this.ypos = ypos;
-    radius = 15;
+    bulletradius = 15;
   }
 
   void move() {
@@ -16,7 +16,7 @@ class Bullet {
 
   void draw() {
     fill(ballColor);
-    ellipse(int(xpos), int(ypos), radius, radius);
+    ellipse(int(xpos), int(ypos), bulletradius, bulletradius);
   }
 
   void collide(Alien alien[]) {
