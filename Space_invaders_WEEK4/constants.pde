@@ -1,0 +1,15 @@
+final int SCREENX=400;
+final int SCREENY=400;
+final int GAP=10;
+final int ALIEN_ALIVE=0;
+final int ALIEN_DEAD=6;
+final int FORWARD=0;
+final int BACKWARD=1;
+final int PADDLEHEIGHT = 10;
+final int PADDLEWIDTH = 70;
+final int MARGIN = 10;
+final int EXPLODING =1;
+final int HEIGHT = 25;
+final int WIDTH = 30;
+final int A_FORWARD = 0; // to loop back 
+final int A_BACKWARD = 1; // too loop back 
