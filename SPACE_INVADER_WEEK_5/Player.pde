@@ -1,0 +1,30 @@
+class Player {
+int xpos, ypos, width, height;
+color playercolor = color(50);
+
+Player( int screen_y)
+{
+xpos=SCREENX/2;
+ypos=screen_y;
+}
+
+void move(int x){
+if(x>SCREENX-PADDLEWIDTH) 
+xpos = SCREENX-PADDLEWIDTH;
+else xpos=x;
+}
+
+int x(){
+return xpos;
+}
+
+int y(){
+return ypos;
+}
+
+void draw()
+{
+fill(playercolor);
+rect(xpos, ypos, PADDLEWIDTH ,  PADDLEHEIGHT);
+}
+}

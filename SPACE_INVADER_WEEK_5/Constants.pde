@@ -1,0 +1,13 @@
+final int SCREENX = 400;
+final int SCREENY = 400;
+final int A_FORWARD = 0;
+final int A_BACKWARD = 1;
+final int GAP=20;
+final int ALIEN_ALIVE=0;
+final int ALIEN_DEAD=6;
+final int PADDLEHEIGHT = 20;
+final int PADDLEWIDTH = 75;
+final int MARGIN = 10;
+final int EXPLODING =1;
+final int HEIGHT = 25;
+final int WIDTH = 30;
